@@ -1,0 +1,31 @@
+
+.box-about {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #17232e, #1c2a37);
+    box-shadow:  18px 18px 36px #131c25,
+             -18px -18px 36px #213241;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-about p{
+    padding: 6px 40px;
+    color: rgb(145, 214, 249);
+}
+
+h1 {
+    background-color: #007bff;
+    color: white;  
+    text-align: center;    
+    padding: 10px 0;  
+    margin: 0;    
+    font-style: italic; 
+    
+}
+
+.verMas{
+    height: 48vh;    
+    overflow-y: scroll; 
+    scrollbar-width: none; 
+}

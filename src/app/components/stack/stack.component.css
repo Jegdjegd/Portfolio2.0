@@ -1,0 +1,71 @@
+.box-about {
+    margin-top: 3vh;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #17232e, #1c2a37);
+    box-shadow:  18px 18px 36px #131c25,
+             -18px -18px 36px #213241;
+    z-index: -1;
+}
+
+.slider{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    mask-image:  linear-gradient(
+      to right,
+      transparent, #000 10% 90%,
+      transparent
+    );
+}
+
+
+.logos{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slide 20s linear infinite;
+    transition: all 0.9s ease-in-out ;
+    margin-top: 15px;
+    padding: 2vw;
+
+  }
+  
+  .logos:hover{
+    animation-play-state: paused;
+  }
+  
+  .logos img {
+    width: 4vw;
+    margin: 5px 30px;
+    transition: transform 0.9s ease-in-out, filter 0.9s ease-in-out;
+    filter: grayscale(1); 
+  }
+  
+  .logos img:hover {
+    transform: scale(1.15); 
+    filter: grayscale(0); 
+  }
+  
+  
+  @keyframes slide{
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+
+header {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #007bff;
+    color: white;  
+    text-align: center;    
+    padding: 10px 0;  
+    margin: 0;    
+    font-style: italic;
+    font-size: 2em ; 
+}

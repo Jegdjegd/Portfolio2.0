@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #1a2733;
+}
+
+/* Desde 300 hasta 700 */
+
+.titulo {
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  /* Desde 200 hasta 900 */
+  
+  .parrafos {
+    font-family: "Source Code Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  /* Peso desde 100 hasta 900 */
+  
+  .subtitulo {
+    font-family: "Exo", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
