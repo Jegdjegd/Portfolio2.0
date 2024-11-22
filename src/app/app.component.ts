@@ -7,11 +7,10 @@ import { ExperienceComponent } from "./components/experience/experience.componen
 import { ClipboardModule } from '@angular/cdk/clipboard';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, AcercaDeComponent, StackComponent, StorieComponent, ExperienceComponent,ClipboardModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    imports: [RouterOutlet, AcercaDeComponent, StackComponent, StorieComponent, ExperienceComponent, ClipboardModule],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'Portafolio Jhoann G';
